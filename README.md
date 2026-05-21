@@ -7,12 +7,24 @@ Built by a SQL Server DBA with hands-on experience managing large database estat
 
 
 📜 Script Categories
-🔧 Index Maintenance - Scripts for intelligent index rebuild and reorganize operations based on fragmentation levels. Integrated with Ola Hallengren's IndexOptimize procedure and CommandLog table for tracking execution history.
-📊 Statistics Management - Statistics health reporting across all user databases. Bulk statistics update with date-based filtering. Identifying stale statistics that impact query plan quality
-💾 Backup & Restore - Backup job validation and history reporting. Restore testing scripts for DR readiness. Backup file size and duration trend analysis.
-🔐 Security & Auditing - SQL login audit, identifying logins without password policy enforcement. Server-level and database-level permission reviews. Orphaned user detection
-⚡ Performance Tuning - Top wait stats analysis. Missing index recommendations from DMVs. Expensive query identification via sys.dm_exec_query_stats. Blocking and deadlock monitoring
-📡 Monitoring & Alerting - Disk space capacity planning scripts. SQL Agent job failure history. Long-running query detection. TempDB usage monitoring.
+
+🔧 Index Maintenance - 
+Scripts for intelligent index rebuild and reorganize operations based on fragmentation levels. Integrated with Ola Hallengren's IndexOptimize procedure and CommandLog table for tracking execution history.
+
+📊 Statistics Management - 
+Statistics health reporting across all user databases. Bulk statistics update with date-based filtering. Identifying stale statistics that impact query plan quality.
+
+💾 Backup & Restore - 
+Backup job validation and history reporting. Restore testing scripts for DR readiness. Backup file size and duration trend analysis.
+
+🔐 Security & Auditing - 
+SQL login audit, identifying logins without password policy enforcement. Server-level and database-level permission reviews. Orphaned user detection.
+
+⚡ Performance Tuning - 
+Top wait stats analysis. Missing index recommendations from DMVs. Expensive query identification via sys.dm_exec_query_stats. Blocking and deadlock monitoring.
+
+📡 Monitoring & Alerting - 
+Disk space capacity planning scripts. SQL Agent job failure history. Long-running query detection. TempDB usage monitoring.
 
 
 NOTE :-
